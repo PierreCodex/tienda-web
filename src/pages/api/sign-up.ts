@@ -1,4 +1,4 @@
-import { createCustomer, getCustomerAccessToken } from "@/lib/shopify";
+import { createCustomer, getCustomerAccessToken } from "@/lib/store";
 import type { APIRoute } from "astro";
 
 export const POST: APIRoute = async ({ request }) => {
