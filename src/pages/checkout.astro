@@ -1,0 +1,15 @@
+---
+import BaseLayout from "@/layouts/Base.astro";
+import Checkout from "@/layouts/functional-components/cart/Checkout.tsx";
+---
+
+<BaseLayout title="Checkout">
+  <section class="section">
+    <div class="container">
+      <Checkout 
+        client:only="react" 
+        hasMpToken={Boolean(import.meta.env.MP_ACCESS_TOKEN || process.env.MP_ACCESS_TOKEN)} 
+      />
+    </div>
+  </section>
+</BaseLayout>

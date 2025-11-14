@@ -1,0 +1,72 @@
+[
+  {
+    "id": "prod_1",
+    "handle": "camiseta-basica",
+    "availableForSale": true,
+    "title": "Camiseta básica",
+    "description": "Camiseta 100% algodón, suave y cómoda.",
+    "descriptionHtml": "<p>Camiseta 100% algodón, suave y cómoda.</p>",
+    "vendor": "MiMarca",
+    "tags": ["ropa", "camisetas"],
+    "collections": ["Ropa"],
+    "images": [
+      { "url": "/images/product-1.png", "altText": "Camiseta básica", "width": 800, "height": 800 }
+    ],
+    "options": [
+      { "id": "opt_size", "name": "Talla", "values": ["S", "M", "L"] },
+      { "id": "opt_color", "name": "Color", "values": ["Negro", "Blanco"] }
+    ],
+    "variants": [
+      {
+        "id": "var_1",
+        "title": "Negro / M",
+        "availableForSale": true,
+        "selectedOptions": [ { "name": "Color", "value": "Negro" }, { "name": "Talla", "value": "M" } ],
+        "price": { "amount": "0.10", "currencyCode": "SOLES" }
+      },
+      {
+        "id": "var_2",
+        "title": "Blanco / M",
+        "availableForSale": true,
+        "selectedOptions": [ { "name": "Color", "value": "Blanco" }, { "name": "Talla", "value": "M" } ],
+        "price": { "amount": "19.90", "currencyCode": "SOLES" }
+      }
+    ],
+    "compareAtPrice": "24.90"
+  },
+  {
+    "id": "prod_2",
+    "handle": "zapatillas-urbanas",
+    "availableForSale": true,
+    "title": "Zapatillas Urbanas",
+    "description": "Zapatillas cómodas para uso diario.",
+    "descriptionHtml": "<p>Zapatillas cómodas para uso diario.</p>",
+    "vendor": "MiMarca",
+    "tags": ["calzado", "urbano"],
+    "collections": ["Calzado"],
+    "images": [
+      { "url": "/images/product-placeholder.jpg", "altText": "Zapatillas Urbanas", "width": 800, "height": 800 }
+    ],
+    "options": [
+      { "id": "opt_size", "name": "Talla", "values": ["40", "41", "42"] },
+      { "id": "opt_color", "name": "Color", "values": ["Gris", "Azul"] }
+    ],
+    "variants": [
+      {
+        "id": "var_3",
+        "title": "Gris / 41",
+        "availableForSale": true,
+        "selectedOptions": [ { "name": "Color", "value": "Gris" }, { "name": "Talla", "value": "41" } ],
+        "price": { "amount": "59.90", "currencyCode": "USD" }
+      },
+      {
+        "id": "var_4",
+        "title": "Azul / 41",
+        "availableForSale": true,
+        "selectedOptions": [ { "name": "Color", "value": "Azul" }, { "name": "Talla", "value": "41" } ],
+        "price": { "amount": "59.90", "currencyCode": "USD" }
+      }
+    ],
+    "compareAtPrice": "69.90"
+  }
+]
