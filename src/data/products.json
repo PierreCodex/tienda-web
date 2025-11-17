@@ -1,72 +1,459 @@
 [
+
   {
-    "id": "prod_1",
-    "handle": "camiseta-basica",
+    "id": "352816",
+    "handle": "pendientes-pequenos-flor-6",
     "availableForSale": true,
-    "title": "Camiseta básica",
-    "description": "Camiseta 100% algodón, suave y cómoda.",
-    "descriptionHtml": "<p>Camiseta 100% algodón, suave y cómoda.</p>",
+    "title": "Pendientes pequeños flor 6",
+    "description": "",
+    "descriptionHtml": "",
     "vendor": "MiMarca",
-    "tags": ["ropa", "camisetas"],
-    "collections": ["Ropa"],
+    "tags": [],
+    "collections": ["Aretes"],  
     "images": [
-      { "url": "/images/product-1.png", "altText": "Camiseta básica", "width": 800, "height": 800 }
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_eefd3d9500e9aaa3dd00107ad69cabe51279249f_producto_medium_80.jpg", "altText": "Pendientes pequeños flor 6", "width": 800, "height": 800 }
     ],
-    "options": [
-      { "id": "opt_size", "name": "Talla", "values": ["S", "M", "L"] },
-      { "id": "opt_color", "name": "Color", "values": ["Negro", "Blanco"] }
-    ],
+    "options": [],
     "variants": [
-      {
-        "id": "var_1",
-        "title": "Negro / M",
-        "availableForSale": true,
-        "selectedOptions": [ { "name": "Color", "value": "Negro" }, { "name": "Talla", "value": "M" } ],
-        "price": { "amount": "0.10", "currencyCode": "SOLES" }
-      },
-      {
-        "id": "var_2",
-        "title": "Blanco / M",
-        "availableForSale": true,
-        "selectedOptions": [ { "name": "Color", "value": "Blanco" }, { "name": "Talla", "value": "M" } ],
-        "price": { "amount": "19.90", "currencyCode": "SOLES" }
-      }
+      { "id": "var_352816", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
     ],
-    "compareAtPrice": "24.90"
+    "compareAtPrice": "0"
   },
   {
-    "id": "prod_2",
-    "handle": "zapatillas-urbanas",
+    "id": "352815",
+    "handle": "pendientes-pequenos-flor-5",
     "availableForSale": true,
-    "title": "Zapatillas Urbanas",
-    "description": "Zapatillas cómodas para uso diario.",
-    "descriptionHtml": "<p>Zapatillas cómodas para uso diario.</p>",
+    "title": "Pendientes pequeños flor 5",
+    "description": "",
+    "descriptionHtml": "",
     "vendor": "MiMarca",
-    "tags": ["calzado", "urbano"],
-    "collections": ["Calzado"],
+    "tags": [],
+    "collections": ["Aretes"],  
     "images": [
-      { "url": "/images/product-placeholder.jpg", "altText": "Zapatillas Urbanas", "width": 800, "height": 800 }
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_12b61de110552d805f4cc8ccd24e875bb0b8df75_producto_medium_80.jpg", "altText": "Pendientes pequeños flor 5", "width": 800, "height": 800 }
     ],
-    "options": [
-      { "id": "opt_size", "name": "Talla", "values": ["40", "41", "42"] },
-      { "id": "opt_color", "name": "Color", "values": ["Gris", "Azul"] }
-    ],
+    "options": [],
     "variants": [
-      {
-        "id": "var_3",
-        "title": "Gris / 41",
-        "availableForSale": true,
-        "selectedOptions": [ { "name": "Color", "value": "Gris" }, { "name": "Talla", "value": "41" } ],
-        "price": { "amount": "59.90", "currencyCode": "USD" }
-      },
-      {
-        "id": "var_4",
-        "title": "Azul / 41",
-        "availableForSale": true,
-        "selectedOptions": [ { "name": "Color", "value": "Azul" }, { "name": "Talla", "value": "41" } ],
-        "price": { "amount": "59.90", "currencyCode": "USD" }
-      }
+      { "id": "var_352815", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "59.50", "currencyCode": "S/" } }
     ],
-    "compareAtPrice": "69.90"
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "352814",
+    "handle": "aretes-pequenos-flor-con-pedreria",
+    "availableForSale": true,
+    "title": "Aretes pequeños flor con pedrería",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],  
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_9768c167ac051e527d204914f508d2d64de875a8_producto_medium_80.jpg", "altText": "Aretes pequeños flor con pedrería", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_352814", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "65.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "352676",
+    "handle": "prendedor-cisne",
+    "availableForSale": true,
+    "title": "Prendedor cisne",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Prendedores"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_edf9d208a2f6bdb83d3204f9a5873c5007c71877_producto_medium_80.jpg", "altText": "Prendedor cisne", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_352676", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "142.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "352675",
+    "handle": "prendedor-colibri",
+    "availableForSale": true,
+    "title": "Prendedor colibrí",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Prendedores"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_984af32eec7a39dabed09db6b51dddd1d9cf38bb_producto_medium_80.jpg", "altText": "Prendedor colibrí", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_352675", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "109.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "352674",
+    "handle": "prendedor-delfin",
+    "availableForSale": true,
+    "title": "Prendedor delfín",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Prendedores"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_f59b6c8562d49e3ab0518da4bbb2fb14d0cb72d1_producto_medium_80.jpg", "altText": "Prendedor delfín", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_352674", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "114.50", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "348675",
+    "handle": "prendedor-pavo-real",
+    "availableForSale": true,
+    "title": "Prendedor pavo real",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Prendedores"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_a03ee4dc39d6df26870986ee025e02474ac20daa_producto_medium_80.jpg", "altText": "Prendedor pavo real", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_348675", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "165.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "348674",
+    "handle": "prendedor-hoja",
+    "availableForSale": true,
+    "title": "Prendedor hoja",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Prendedores"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_1247aeadcc7c9a31eaab52ba64f1ff3b35210206_producto_medium_80.png", "altText": "Prendedor hoja", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_348674", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "121.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "348673",
+    "handle": "pendientes-pulpo",
+    "availableForSale": true,
+    "title": "Pendientes pulpo",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Pendientes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_20550b0c88a4b3f9b245438842a09a47043d998a_producto_medium_80.jpg", "altText": "Pendientes pulpo", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_348673", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "348667",
+    "handle": "dije-cruz-348667",
+    "availableForSale": true,
+    "title": "Dije cruz",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Collares"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_67ba6653fc3171a0e1c65dbaecef2ecddc87f488_producto_medium_80.png", "altText": "Dije cruz", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_348667", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "242.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "346286",
+    "handle": "pendientes-pequenos-flor-en-rama",
+    "availableForSale": true,
+    "title": "Pendientes pequeños flor en rama",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_94b9d4f1675dfbe5d88220fdd7b5164498dd3e66_producto_medium_80.jpg", "altText": "Pendientes pequeños flor en rama", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_346286", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "346283",
+    "handle": "pendientes-pequenos-flor-3-346283",
+    "availableForSale": true,
+    "title": "Pendientes pequeños flor 4",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_12fc662222afd5bb68cb560a4e22a00178000e66_producto_medium_80.jpg", "altText": "Pendientes pequeños flor 4", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_346283", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "346279",
+    "handle": "pendientes-triangulo",
+    "availableForSale": true,
+    "title": "Pendientes triángulo",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_5d977d7c955ddb4d67f6c0139139b352badd0ffb_producto_medium_80.jpg", "altText": "Pendientes triángulo", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_346279", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "109.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "343359",
+    "handle": "pendientes-tirabuzon-2",
+    "availableForSale": true,
+    "title": "Pendientes tirabuzón 2",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_1a4a9f8b57b4abb25384d12365afb16cd75fa019_producto_medium_80.jpg", "altText": "Pendientes tirabuzón 2", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_343359", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "343358",
+    "handle": "pendientes-pequenos-flor-3",
+    "availableForSale": true,
+    "title": "Pendientes pequeños flor 3",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_8c7d0fda7e29d3f0a9011a6d4332f6d19dd4d9c4_producto_medium_80.jpg", "altText": "Pendientes pequeños flor 3", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_343358", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "343356",
+    "handle": "pendientes-pequenos-estrella",
+    "availableForSale": true,
+    "title": "Pendientes pequeños estrella",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_792d303179b36ab01af7aaa731bb2b74f92226fa_producto_medium_80.jpg", "altText": "Pendientes pequeños estrella", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_343356", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338495",
+    "handle": "aretes-pequenos-media-luna",
+    "availableForSale": true,
+    "title": "Aretes pequeños media luna",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_44ada3a96e7158bb8f6d8863b47e1026d1a0d4e7_producto_medium_80.jpg", "altText": "Aretes pequeños media luna", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338495", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "54.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338494",
+    "handle": "aretes-pequenos-flor-7",
+    "availableForSale": true,
+    "title": "Aretes pequeños flor 7",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_1c8f8d0bb4d430498dc825993ec607e998db37e1_producto_medium_80.jpg", "altText": "Aretes pequeños flor 7", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338494", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "54.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338493",
+    "handle": "aretes-pequenos-flor-6",
+    "availableForSale": true,
+    "title": "Aretes pequeños flor 6",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_44c731088f40bb512d6492b35b7d3548e21b6517_producto_medium_80.jpg", "altText": "Aretes pequeños flor 6", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338493", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338492",
+    "handle": "aretes-pequenos-flor-5",
+    "availableForSale": true,
+    "title": "Aretes pequeños flor 5",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_0244fd273836bf46c8b7db44ff808bbaf56b2748_producto_medium_80.jpg", "altText": "Aretes pequeños flor 5", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338492", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "54.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338490",
+    "handle": "aretes-pequenos-flor-4",
+    "availableForSale": true,
+    "title": "Aretes pequeños flor 4",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Aretes"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_a1eced47c25db045b81b530b33b2ec2855ad1e61_producto_medium_80.jpg", "altText": "Aretes pequeños flor 4", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338490", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "54.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338488",
+    "handle": "anillos-espiga-3",
+    "availableForSale": true,
+    "title": "Anillo espiga 3",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Anillos"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_727fa2b51adda1887a2a3ad0f27d27c3aacb5da4_producto_medium_80.jpg", "altText": "Anillo espiga 3", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338488", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "76.00", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338487",
+    "handle": "anillo-flor-2",
+    "availableForSale": true,
+    "title": "Anillo flor 2",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Anillos"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_1dcad51f86b8c4da03e87607e4563a7f00baac3a_producto_medium_80.jpg", "altText": "Anillo flor 2", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338487", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "92.50", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
+  },
+  {
+    "id": "338337",
+    "handle": "anillo-espiga-3",
+    "availableForSale": true,
+    "title": "Anillo espiral",
+    "description": "",
+    "descriptionHtml": "",
+    "vendor": "MiMarca",
+    "tags": [],
+    "collections": ["Anillos"],
+    "images": [
+      { "url": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_016353/tienda_016353_c7862f0a3d5adb0b07ddf883ab11c5193e8ec249_producto_medium_80.jpg", "altText": "Anillo espiral", "width": 800, "height": 800 }
+    ],
+    "options": [],
+    "variants": [
+      { "id": "var_338337", "title": "Default", "availableForSale": true, "selectedOptions": [], "price": { "amount": "92.50", "currencyCode": "S/" } }
+    ],
+    "compareAtPrice": "0"
   }
 ]

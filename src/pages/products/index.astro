@@ -75,41 +75,7 @@ if (searchValue || brand || minPrice || maxPrice || category || tag) {
     productsData = { products: [] };
   }
 
-  const uniqueVendors: string[] = [
-    ...new Set(
-      ((productsData?.products as Product[]) || []).map((product: Product) =>
-        String(product?.vendor || "")
-      )
-    ),
-  ];
-
-  const uniqueCategories: string[] = [
-    ...new Set(
-      ((productsData?.products as Product[]) || []).flatMap(
-        (product: Product) =>
-          product.collections.nodes.map(
-            (collectionNode: any) => collectionNode.title || ""
-          )
-      )
-    ),
-  ];
-
-  vendorsWithCounts = uniqueVendors.map((vendor: string) => {
-    const productCount = (productsData?.products || []).filter(
-      (product: Product) => product?.vendor === vendor
-    ).length;
-    return { vendor, productCount };
-  });
-
-  categoriesWithCounts = uniqueCategories.map((category: string) => {
-    const productCount = ((productsData?.products as Product[]) || []).filter(
-      (product: Product) =>
-        product.collections.nodes.some(
-          (collectionNode: any) => collectionNode.title === category
-        )
-    ).length;
-    return { category, productCount };
-  });
+  
 } else {
   // Fetch all products
   try {
@@ -123,6 +89,42 @@ if (searchValue || brand || minPrice || maxPrice || category || tag) {
     productsData = { products: [] };
   }
 }
+
+const uniqueVendors: string[] = [
+  ...new Set(
+    ((productsData?.products as Product[]) || []).map((product: Product) =>
+      String(product?.vendor || "")
+    )
+  ),
+];
+
+const uniqueCategories: string[] = [
+  ...new Set(
+    ((productsData?.products as Product[]) || []).flatMap(
+      (product: Product) =>
+        product.collections.nodes.map(
+          (collectionNode: any) => collectionNode.title || ""
+        )
+    )
+  ),
+];
+
+vendorsWithCounts = uniqueVendors.map((vendor: string) => {
+  const productCount = (productsData?.products || []).filter(
+    (product: Product) => product?.vendor === vendor
+  ).length;
+  return { vendor, productCount };
+});
+
+categoriesWithCounts = uniqueCategories.map((category: string) => {
+  const productCount = ((productsData?.products as Product[]) || []).filter(
+    (product: Product) =>
+      product.collections.nodes.some(
+        (collectionNode: any) => collectionNode.title === category
+      )
+  ).length;
+  return { category, productCount };
+});
 
 const categories = await getCollections();
 const vendors = await getVendors({});
