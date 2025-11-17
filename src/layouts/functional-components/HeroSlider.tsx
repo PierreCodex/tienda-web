@@ -18,25 +18,25 @@ const HeroSlider = ({ products }: { products: Product[] }) => {
       >
         {products?.map((item: Product) => (
           <SwiperSlide key={item.id}>
-            <div className="row items-center px-7 xl:px-16">
+            <div className="row items-center px-4 xl:px-8 py-8">
               <div className="sm:col-12 lg:col-6 order-2 lg:order-0">
-                <div className="text-center py-10 lg:py-0">
+                <div className="text-center py-6 lg:py-0">
                   {item?.description && (
-                    <p className="mb-2 lg:mb-3 text-text-light dark:text-darkmode-text-light font-medium md:text-xl">
+                    <p className="mb-2 lg:mb-2 text-text-light dark:text-darkmode-text-light font-medium text-base md:text-lg">
                       {item.description}
                     </p>
                   )}
                   <div className="row">
-                    <h1 className="mb-4 lg:mb-10 col-10 sm:col-8 lg:col-12 mx-auto">
+                    <h2 className="mb-3 lg:mb-6 col-10 sm:col-8 lg:col-12 mx-auto text-2xl md:text-3xl lg:text-4xl">
                       {item.title}
-                    </h1>
+                    </h2>
                   </div>
                   {item.handle && (
                     <a
-                      className="btn btn-sm md:btn-lg btn-primary font-medium"
+                      className="btn btn-sm md:btn-md btn-primary font-medium"
                       href={`products/${item.handle}`}
                     >
-                      Shop Now
+                      Ver Producto
                     </a>
                   )}
                 </div>
@@ -44,13 +44,16 @@ const HeroSlider = ({ products }: { products: Product[] }) => {
 
               <div className="sm:col-12 lg:col-6">
                 {item.featuredImage && (
-                  <img
-                    src={item.featuredImage.url}
-                    className="mx-auto w-[388px] lg:w-full"
-                    width={"507"}
-                    height={"385"}
-                    alt="banner image"
-                  />
+                  <div className="relative mx-auto w-[280px] h-[280px] lg:w-[350px] lg:h-[350px]">
+                    <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full blur-xl opacity-30"></div>
+                    <img
+                      src={item.featuredImage.url}
+                      className="relative w-full h-full object-cover rounded-full shadow-2xl border-4 border-white/20"
+                      width={"350"}
+                      height={"350"}
+                      alt={item.title}
+                    />
+                  </div>
                 )}
               </div>
             </div>
